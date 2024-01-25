@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed&display=swap');
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(22, 103, 255);
+}
+body {
+    background-color: #eeeeee;
+    margin: 0;
+    padding:0;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 402px;
+    width: 500px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: 20%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container h1{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.container p {
+    position: relative;
+    bottom: 10%;
+    color: grey;
+    opacity: 0.6;
+}
+
+.line {
+    position: relative;
+    top: 40%;
+    width: 400px;
+    color: rgb(128, 128, 128);
+    opacity: 0.3;
+}
+img {
+    position: relative;
+    left: 47%;
+    top: 10%;
+}
+.box1 {
+    background-color: rgba(128, 128, 128, 0.13);
+    display: flex;
+    flex-direction: row;
+    column-gap: 185px;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.box1 .fb {
+    position: relative;
+    left: 10px;
+    top: 15px;
+    padding-right: 25px;
+    color: black;
+    font-size: 15px;
+}
+
+.box2 {
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.13);
+    display: flex;
+    flex-direction: row;
+    column-gap: 195px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.box2 .tw {
+    position: relative;
+    left: 10px;
+    top: 15px;
+    padding-right: 25px;
+    color: black;
+    font-size: 15px;
+}
+
+.box3 {
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.13);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 230px;
+    height: 45px;
+}
+.box3 .lin {
+    position: relative;
+    left: 10px;
+    top: 15px;
+    padding-right: 25px;
+    color: black;
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 1920px) {
+    .container {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 95px;
+        margin: auto;
+    }
+
+    .line {
+        top: 37%;
+    }
+}
